@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="id-ID">
+<head>
+    <!-- Meta Tags -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <!-- Author -->
+    <meta name="author" content="Sembako Token IT Division">
+    <!-- description -->
+    <meta name="description" content="Sembako Token">
+    <!-- keywords -->
+    <meta name="keywords" content="Sembako Token, Cryptocurrency, Token, Coin">
+    <!-- Page Title -->
+    <title>Sembako Token</title>
+    <!-- Favicon -->
+    <link href="vendor/img/favicon.ico" rel="icon">
+    <!-- Bundle -->
+    <link href="vendor/css/bundle.min.css" rel="stylesheet">
+    <!-- Plugin Css -->
+    <link href="vendor/css/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/css/LineIcons.min.css">
+    <link rel="stylesheet" href="vendor/css/jquery.fancybox.min.css">
+    <!-- Style Sheet -->
+    <link href="creative-designer/css/line-awesome.min.css" rel="stylesheet">
+    <link href="creative-designer/css/style.css" rel="stylesheet">
+    <link href="creative-designer/css/custom.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a029ca942a.js" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load("current", {packages:["corechart"]});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Task', 'Hours per Day'],
+      ['Penjualan',     32],
+      ['Tim Developer',      30],
+      ['Marketing',  20],
+      ['Tim Teknikal', 5],
+      ['Amal dan Donasi',    3],
+      ['Community Developer',    10]
+    ]);
+
+    var options = {
+backgroundColor: { fill:'transparent' },
+legend: {position: 'none'},
+
+      is3D: true,
+ // pieSliceText: 'label',
+  chartArea:{left:50,top:20,width:"100%",height:"100%",pieSliceBorderColor: '#fff'},
+  // pieStartAngle: 90,
+  slices: {
+              0: { color: 'black' },
+              1: { color: '#fea800' },
+              2: { color: '#a761c8' },
+              3: { color: '#ed210d' },
+              4: { color: '#60d837' },
+              5: { color: '#00a1ff' }
+            }
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+    chart.draw(data, options);
+  }
+
+  $(window).on("throttledresize", function (event) {
+    var options = {
+        width: '100%',
+        height: '100%'
+    };
+
+    var data = google.visualization.arrayToDataTable([]);
+    drawChart(data, options);
+});
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<style media="screen">
+.owl-dots {
+    margin-bottom: 60px;
+}
+</style>
+<link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VX600Q81VK"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VX600Q81VK');
+</script>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="90">
+
+<header>
+    <!--Navigation-->
+    <nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
+        <div class="container-fluid navbar-left">
+            <a href="#home" title="Logo" class="logo scroll">
+                <!--Logo Default-->
+                <span><img src="creative-designer/images/SBT_Logo-Transparan.png" alt="Logo Sembako Token"></span>
+            </a>
+        </div>
+
+        <!--Side Menu Button-->
+        <a href="javascript:void(0)" class="sidemenu_btn" id="sidemenu_toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <div class="topnav">
+          <a href="#home">Beranda</a>
+          <a href="#about">Tentang Kami</a>
+          <a href="#program">Program</a>
+          <a href="#sembakonomics">Sembakonomics</a>
+          <a href="#roadmap">Roadmap</a>
+          <a href="https://sembakotoken.org"> <div class="flaglang"> <img src="images/indonesia.png" alt=""> </div></a>
+          <a href="https://sembakotoken.org/en/"><div class="flaglang rgh"><img src="images/united-kingdom.png" alt=""></div> </a>
+        </div>
+    </nav>
+
+    <!--Side Nav-->
+    <div class="side-menu hidden">
+        <div class="inner-wrapper">
+            <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+            <a href="#home" title="Logo" class="scroll">
+                <!--Logo Default-->
+                <img src="creative-designer/images/SBT_Logo-Transparan.png" alt="logo">
+            </a>
+            <nav class="side-nav w-100">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#about">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#program">Program</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#sembakonomics">Sembakonomics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#roadmap">Roadmap</a>
+                    </li>
+                    <li class="nav-item">
+                      <div class="headflg">
+                        <a href="https://sembakotoken.org"> <div class="flaglang"> <img src="images/indonesia.png" alt=""> </div></a>
+                        <a href="https://sembakotoken.org/en/"><div class="flaglang rgh"><img src="images/united-kingdom.png" alt=""></div> </a>
+                      </div>
+
+                    </li>
+                </ul>
+            </nav>
+            <div class="side-footer w-100">
+              <!-- <ul class="social-icons-simple">
+                 <li><a class="telegram_bg_hvr2" href="https://t.me/+7DWWqtYBubxjMmI9"><i class="fa fa-telegram"></i> </a> </li>
+                 <li><a class="twitter_bg_hvr2" href="https://twitter.com/sembakotoken"><i class="fab fa-twitter"></i> </a> </li>
+              </ul> -->
+                <ul class="social-icons-simple">
+                   <li><a class="telegram_bg_hvr2" href="https://t.me/+7DWWqtYBubxjMmI9"><i class="fa fa-telegram"></i> </a> </li>
+                   <li><a class="twitter_bg_hvr2" href="https://twitter.com/sembakotoken"><i class="fab fa-twitter"></i> </a> </li>
+                   <li><a class="tiktok_bg_hvr2" href="https://www.tiktok.com/@sembakotoken.official"><i class="fab fa-tiktok"></i> </a> </li>
+                   <li><a class="instagram_bg_hvr2" href="https://www.instagram.com/sembakotoken.official/"><i class="fab fa-instagram"></i> </a> </li>
+                   <li><a class="facebook_bg_hvr2" href="https://www.facebook.com/profile.php?id=100087445217401"><i class="fab fa-facebook-f"></i> </a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <a id="close_side_menu" href="javascript:void(0);"></a>
+    <!-- End side menu -->
+<style media="screen">
+</style>
+</header>
+
+<div class="loader-bg">
+    <div class="svg-loader">
+        <img src="images/binance-preloader.gif" alt="">
+    </div>
+</div>
+
+<section class="section slide1 p-0" id="home">
+    <div class="slider-area" id="slider-area">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 col-lg-6 text-md-center text-lg-left wow fadeInLeft content-margin mainheaad" data-wow-duration="1.5s" data-wow-delay="1.2s">
+                    <div class="area-heading text-center text-lg-left">
+                        <h1 class="main-font text-white font-weight-bold mb-4 tithead"><span class="d-block text-red">SEMBAKO TOKEN</span></h1>
+                        <h2>MURAH.BERKAH.SEJAHTERA</h2>
+                        <p class="text-white alt-font mb-5">Mentransformasi distribusi Sembako (Sembilan Bahan Pokok) dengan menggunakan jaringan Blockchain Binance Smart Chain (BEP-20) untuk mendukung semua transaksi yang ada di SBT Ekosistem.</p>
+                        <a href="https://pancakeswap.finance/swap?outputCurrency=0xD21642383a5cdF8C61FED6121a2084C1658E35B1"  class="btn btn-medium btn-rounded btn-trans-white mb-5 brnbeli" target="_blank">BELI $SBT</a>
+                        <a href="https://sembakotoken.org/whitepaper/sbt-whitepaper-v1_id.pdf"  class="btn btn-medium btn-rounded btn-trans-white mb-5" target="_blank">WHITEPAPER ID</a>
+                        <a href="https://sembakotoken.org/whitepaper/sbt-whitepaper-v1_en.pdf"  class="btn btn-medium btn-rounded btn-trans-white mb-5" target="_blank">WHITEPAPER EN</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 image-order wow fadeInRight mainheaad" data-wow-duration="1.5s" data-wow-delay="1.2s">
+                    <div class="slider-image">
+                        <img src="images/image1.png" alt="Slider-Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class=" col-sm-12 col-md-6 img-sec mt-5 mt-md-0 wow fadeIn order-2 order-md-1" data-wow-duration="1.5s" data-wow-delay=".5s">
+                <div class="red_rectangle"></div>
+                <div class="about_img position-relative">
+                    <img class="imgcoin" src="images/image2.png" alt="About Image">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 pl-md-5 wow fadeInRight order-1 order-md-1" data-wow-duration="1.5s" data-wow-delay=".5s">
+                <div class="about-heading">
+                    <h1 class="heading margin_heading main-font">SBT TOKEN</h1>
+                    <p class="info">Sembako adalah singkatan dari Sembilan bahan pokok yang terdiri atas berbagai bahan-bahan makanan dan minuman yang secara umum sangat dibutuhkan masyarakat.</p>
+                    <p class="info my-4">Tanpa sembako kehidupan masyarakat bisa terganggu karena sembako merupakan kebutuhan pokok utama sehari-hari yang wajib ada di pasar.</p>
+                    <p class="info my-4">Sembako Token adalah jembatan distributor sembako yang memfasilitasi berbagai macam sembako diantaranya misalkan beras, minyak, gula, telor dan lainnya yang menjadi kebutuhan paling utama yang nantinya bisa menjadi solusi bagi masyarakat untuk meningkatkan kebutuhan pokok.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tekno" id="teknologi">
+    <div class="container">
+        <div class="row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="col-12 text-center">
+                <div class="heading-area">
+                    <h4 class="heading main-font">TEKNOLOGI</h4>
+                    <p>Sembako Token (SBT) menciptakan ekosistem berbasis Blockchain yang mendukung distribusi kebutuhan sembilan bahan pokok dan keuangan terdesentralisasi dalam memecahkan masalah di dunia nyata menggunakan teknologi Blockchain. Sembako Token (SBT) membangun smart contract diatas teknologi Binance Smart Chain (BSC), yang mana Binance Smart Chain (BSC) dianggap sebagai salah satu jaringan Blockchain terbaik yang lebih pintar dan andal jika dibandingkan dengan jaringan Blockchain terdesentralisasi lainnya. Binance Smart Chain (BSC) dianggap sebagai salah satu jaringan Blockchain yang canggih dengan arsitektur yang kuat dan fitur keamanan kelas atas. Arsitektur dari Binance Smart Chain (BSC) memungkinkan untuk mencapai kecepatan transaksi hingga 300 TPS (Transaction Per Second) yang 23 kali lebih banyak dari apa yang ditawarkan Blockchain Ethereum (13 TPS).</p>
+                    <div class="kntnmstr">
+                      <img class="imgkntn" src="images/blockchain.png" alt="">
+                      <img class="imgkntn icokcl" src="images/bnb-smartchain-logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-12 col-md-12">
+              <h2 class="heading main-font my-4">Smart Contract V2 Features</h2>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="clients-area">
+                    <ul class="sctr">
+                      <li><span class="nmbrlist">1</span> Blacklist dan Unblacklist</li>
+                      <li><span class="nmbrlist">2</span> Antidump</li>
+                      <li><span class="nmbrlist">3</span> Antiwhale</li>
+                      <li><span class="nmbrlist">4</span> Buy Tax dan Sell Tax</li>
+                      <li><span class="nmbrlist">5</span> Tax Address</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="clients-area row2">
+                    <ol class="sctr" start="6">
+                      <li><span class="nmbrlist">6</span> Receiver Address</li>
+                      <li><span class="nmbrlist">7</span> Whitelist dan Unwhitelist</li>
+                      <li><span class="nmbrlist">8</span> Pausable</li>
+                      <li><span class="nmbrlist">9</span> Transfer Ownership</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="clients-area tecnoimg">
+                    <img src="images/tecnoimg.png" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-12">
+                <div class="clients-area btnact">
+                  <a href="https://bscscan.com/token/0xD21642383a5cdF8C61FED6121a2084C1658E35B1" target="_blank"><button type="button" class="btn btn-medium btn-rounded btn-trans-white mb-5 brnbeli" name="button">SBT Smart Contract V2</button></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="prog" id="program">
+    <div class="container">
+        <div class="row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="col-12 text-center">
+                <div class="heading-area">
+                    <h4 class="heading main-font">PROGRAM</h4>
+                    <p>Community Developer adalah kelompok yang disusun oleh perusahaan dengan tujuan untuk menjalankan berbagai pekerjaan yang terkait dengan kegunaan Sembako Token, salah satunya melakukan penentuan wilayah untuk pendistribusian manfaat yang terkait dengan informasi, edukasi dan manfaat lainnya secara masif dan terstruktur ke lapisan masyarakat. Peran dari community developer ini sangat penting karena menjadi pilar dan pondasi utama dari Sembako Token (SBT) dalam memfasilitasi dan pengembangan Sembako Token (SBT) kedepannya.</p>
+                </div>
+            </div>
+            <div class="col-6">
+              <div class="clients-area">
+                <ol  class="sctr lstx">
+                  <li>Melalui jaringan community developer yang tersebar diseluruh penjuru dunia dan di Indonesia khususnya pendistribusian kebutuhan pangan berkualitas baik, akan tersuply secara inklusif agar tingkat kelaparan mampu diperkecil bersama Sembako Token (SBT).</li>
+                  <li>Membentuk sumber daya manusia yang kompeten, kreatif dan inovasi.</li>
+                  <li>Membuka pasar murah agar dapat dinikmati masyarakat secara luas baik secara online maupun offline.</li>
+                  <li>Membina kelompok usaha untuk dapat menyesuaikan dengan perkembangan zaman.</li>
+                  <li>Menciptakan gebrakan dalam dunia aset digital yang dapat membuka kelompok komunitas yang mampu bersaing di era globalisasi.</li>
+                </ol>
+              </div>
+            </div>
+            <div class="col-6 text-center">
+              <div class="clients-area">
+                  <img src="images/image3.png" alt="">
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="portfolio" id="sembakonomics">
+  <div class="container">
+  <div class="row align-items-center">
+      <div class="col-12 col-md-12">
+        <h2 class="heading main-font my-4 titlesmb" style="TEXT-ALIGN: center;">SEMBAKONOMICS</h2>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="col-12 col-md-12">
+          <h3 class="subtitlesmb">INFORMASI TOKEN</h3>
+        </div>
+        <ul class="sctrx">
+          <li>Nama: Sembako Token</li>
+          <li>Simbol: SBT</li>
+          <li>Tipe: Utility</li>
+          <li>Blockchain: Binance Smart Chain</li>
+          <li>Token Standard: BEP-20</li>
+          <li>Total Suplai: 299.999.999 SBT</li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-6">
+        <div class="col-12 col-md-12">
+          <h3 class="subtitlesmb">DISTRIBUSI TOKEN</h3>
+        </div>
+        <ul class="sctrx">
+          <li>Penjualan: 95.999.999</li>
+          <li>Tim Developer: 89.999.999</li>
+          <li>Marketing: 59.999.999</li>
+          <li>Tim Teknikal: 15.000.000</li>
+          <li>Amal dan Donasi: 8.999.999</li>
+          <li>Community Developer: 29.999.999</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row align-items-center diagramnya">
+      <div class="col-12 col-md-6">
+        <div id="chart_wrap"><div id="piechart_3d" ></div></div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="col-12 col-md-12">
+          <h3 class="subtitlesmb">ALOKASI TOKEN</h3>
+        </div>
+        <ul class="sctrx aloktkn">
+          <li class="itemx">Penjualan: 32%</li>
+          <li class="kuningx">Tim Developer: 30%</li>
+          <li class="ungux">Marketing: 20%</li>
+          <li class="merahx">Tim Teknikal: 5%</li>
+          <li class="ijox">Amal dan Donasi: 3%</li>
+          <li class="birux">Community Developer: 10%</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="roadmap" id="roadmap">
+  <div class="container">
+  <div class="row align-items-center">
+      <div class="col-12 col-md-12">
+        <h2 class="heading main-font my-4 titlesmb" style="TEXT-ALIGN: center;">ROADMAP</h2>
+      </div>
+      <section class="ag-section">
+        <div class="ag-format-container">
+          <div class="js-timeline ag-timeline">
+            <div class="js-timeline_line ag-timeline_line">
+              <div class="js-timeline_line-progress ag-timeline_line-progress"></div>
+            </div>
+            <div class="ag-timeline_list">
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">1</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Research The Market</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Mengeksplorasi lebih jauh tentang
+market industri Blockchain dan
+kebutuhan masyarakat akan produk
+pangan agar memudahkan membuat
+strategi dalam mengembangkan proyek
+Sembako Token (SBT)
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Team Gathering & Executing Concepts</div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">2</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Pembentukan struktur organisasi.
+  Mempersiapkan tim yang akan bekerja,
+  memvisualisasikan setiap ide dan
+  gagasan serta mengeksekusi setiap
+  konsep dan program yang telah
+  direncanakan.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">3</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Community Developer</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Merekrut tenaga ahli untuk menjadi
+Community Developer (ComDev) agar
+bisa segera mengimplementasikan dan
+merealisasikan program-program
+Sembako Token (SBT)
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Deploy Smart Contract V1</div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">4</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Meluncurkan smartcontract Sembako
+Token (SBT) versi 1 agar bisa
+mengakomodir transaksi yang dilakukan
+oleh komunitas Sembako Token (SBT).
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">5</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Merchant Partnership</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Bekerjasama dengan merchant-
+merchant untuk menyalurkan produk
+
+barang dan jasa dari Sembako Token
+(SBT).
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Private Sale 1 & 2</div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">6</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Melakukan penjualan token secara
+bertahap melalui program private sale 1
+dan 2 untuk bisa mendanai proyek yang
+dikembangkan oleh Sembako Token
+(SBT).
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">7</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Sembako Token (SBT) Main Office
+& Branch Office</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Mendirikan kantor pusat dan kantor
+cabang Sembako Token (SBT) untuk
+memperlancar operasional, pusat
+edukasi dan informasi, serta layanan
+pengguna Sembako Token (SBT).
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Official Sembako Token (SBT)
+Website</div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">8</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Membangun sebuah website informasi
+Sembako Token (SBT) untuk bisa
+memberikan informasi kepada seluruh
+pengguna agar setiap informasi
+terdistribusi dengan baik.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">9</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Deploy Smartcontract V2</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Meluncurkan smartcontract Sembako
+Token (SBT) versi 2 yang lebih mutahir
+dan canggih sebagai bentuk komitmen
+developer dalam memberikan layanan
+terbaik kepada seluruh penggunanya.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Token Swap versi 1 ke versi 2</div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">10</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Melakukan swap token dari versi 1 ke
+versi 2 untuk merasakan pengalaman
+yang lebih baik dibandingkan
+sebelumnya dengan teknologi yang
+lebih mutahir.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">11</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Whitepaper</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Menerbitkan Sembako Token (SBT)
+Whitepaper agar seluruh pengguna
+mendapatkan informasi secara
+menyeluruh tentang proyek Sembako
+Token (SBT) dan program-programnya.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Listed on a Decentralized
+Exchange</div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">12</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Mendaftarkan Sembako Token (SBT) ke
+bursa perdagangan terdesentralisasi
+agar seluruh pengguna bisa merasakan
+keseruan berdagang dimarket global.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">13</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Listed on a Centralized Exchange</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Mendaftarkan Sembako Token (SBT) ke
+bursa perdagangan tersentral, baik lokal
+maupun global agar memudahkan
+seluruh pengguna dalam menjual dan
+membeli Sembako Token (SBT) sebagai
+aset kripto yang mempunyai masa
+depan cerah.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">E-Commerce Sembako Token
+(SBT)</div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">14</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Meluncurkan Sembako Token (SBT) e-
+commerce untuk dapat menfasilitasi
+
+produk barang dan jasa agar bisa
+diakses oleh pengguna di seluruh dunia
+secara online.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">15</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Education Center</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Berdirinya pusat edukasi dan informasi
+Sembako Token (SBT) akan ikut
+berperan serta memajukan dunia
+pendidikan demi terciptanya SDM yang
+unggul.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+
+<section class="our-clients" id="testimonials">
+    <div class="container">
+      <div class="row wow fadeInUp" data-wow-duration="1.5s">
+          <div class="col-12 text-center">
+              <div class="heading-area">
+                  <h4 class="heading main-font">PENDIRI DAN CEO</h4>
+              </div>
+          </div>
+          <div class="col-12 text-center">
+              <div class="itemX">
+                  <div class="testimonialX-box">
+                      <img src="images/managemen/arga-ceo.png" alt="">
+                      <div class="text1x">
+                          <p class="testimonial_name">Mr. Arga</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="descriptxt">
+                <p>Wagito yang lebih dikenal dengan sebutan Coach Arga adalah Pria kelahiran Tulungagung 1977, lahir di Pulau Jawa dan tumbuh besar di Sumatera, Indonesia. Memulai usaha konvensional dibidang sembako. Dengan proses panjang di usaha konvensional membuat paradigma dan pola pikir bisnisnya terus berkembang. Kemudian menekuni bisnis jaringan sehingga komunitas yang dibangun mulai tersebar dipelosok wilayah bahkan sampai lintas negara, proses ini yang membuka pandangannya dan mengenal tentang aset kripto. Setelah merasakan manfaat besar dari aset kripto pada tahun 2018 hingga 2021, selalu tekun mempelajari bisnis di industri ini, hingga akhirnya pada awal tahun 2022 mulai membuat project dengan nama Sembako Token (SBT).</p>
+              </div>
+          </div>
+      </div>
+        <div class="row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="col-12 text-center">
+                <div class="heading-area">
+                    <h4 class="heading main-font">MANAJEMEN</h4>
+                </div>
+            </div>
+            <div class="owl-testimonial owl-carousel owl-theme">
+                <div class="item">
+                    <div class="testimonial-box">
+                        <img src="images/managemen/RiskaAstuti-komisaris.png" alt="">
+                        <div class="text1">
+                            <p class="testimonial_name">Mrs. Riska Astuti</p>
+                            <p class="info text-red">Komisaris</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-box">
+                        <img src="images/managemen/PrabuShihab-Public_Relation.png" alt="">
+                        <div class="text1">
+                            <p class="testimonial_name">Mr. Prabu Shihab</p>
+                            <p class="info text-red">Public Relation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-box">
+                        <img src="images/managemen/Rusdiyanto-CMO.png" alt="">
+                        <div class="text1">
+                            <p class="testimonial_name">Mr. Anto Wijaya</p>
+                            <p class="info text-red">CMO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-box">
+                        <img src="images/managemen/Andree-CFO.png" alt="">
+                        <div class="text1">
+                            <p class="testimonial_name">Mr. Andree</p>
+                            <p class="info text-red">CFO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-box">
+                        <img src="images/managemen/Theo-COO.png" alt="">
+                        <div class="text1">
+                            <p class="testimonial_name">Mr. Theo</p>
+                            <p class="info text-red">COO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-box">
+                        <img src="images/managemen/Faishal-CTO.png" alt="">
+                        <div class="text1">
+                            <p class="testimonial_name">Mr. Faishal</p>
+                            <p class="info text-red">CTO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="our-clients" id="partner">
+    <div class="container">
+        <div class="row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="col-12 text-center">
+                <div class="heading-area">
+                    <h4 class="heading main-font">PARTNER</h4>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12 col-md-3">
+                </div>
+                <div class="col-12 col-md-3">
+                  <img src="images/BscScan-logo.png" alt="">
+                </div>
+                <div class="col-12 col-md-3">
+                  <img src="images/pancakeswap-logo.png" alt="">
+                </div>
+                <div class="col-12 col-md-3">
+                </div>
+              </div>
+              <div class="row align-items-center">
+                  <div class="col-12 col-md-3">
+                  </div>
+                  <div class="col-12 col-md-3">
+                    <img src="images/coinmarketcap-logo.png" alt="">
+                  </div>
+                  <div class="col-12 col-md-3">
+                    <img src="images/coingecko-logo.png" alt="">
+                  </div>
+                  <div class="col-12 col-md-3">
+                  </div>
+                </div>
+        </div>
+    </div>
+</section>
+<section class="our-clients" id="komunitas">
+    <div class="container">
+        <div class="row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="col-12 text-center">
+                <div class="heading-area">
+                    <h4 class="heading main-font">KOMUNITAS</h4>
+                </div>
+            </div>
+            <div class="mainsosmed">
+              <a href="https://t.me/+7DWWqtYBubxjMmI9" target="_blank"><i class="fa fa-telegram"></i></a>
+              <a href="https://twitter.com/sembakotoken" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.tiktok.com/@sembakotoken.official" target="_blank"><i class="fab fa-tiktok"></i></i></a>
+              <a href="https://www.instagram.com/sembakotoken.official/" target="_blank"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100087445217401" target="_blank"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div class="row align-items-center">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="copyright" id="copyright">
+    <div class="container">
+        <div class="row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="col-12 text-center">
+                <div class="heading-area">
+                    <p>&copy; 2022 Sembako Token</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- START SCROLL TOP -->
+<div class="go-top"><i class="las la-arrow-up"></i><i class="las la-arrow-up"></i></div>
+<!-- END SCROLL TOP -->
+<script type="text/javascript">
+(function ($) {
+  $(function () {
+
+
+    $(window).on('scroll', function () {
+      fnOnScroll();
+    });
+
+    $(window).on('resize', function () {
+      fnOnResize();
+    });
+
+
+    var agTimeline = $('.js-timeline'),
+      agTimelineLine = $('.js-timeline_line'),
+      agTimelineLineProgress = $('.js-timeline_line-progress'),
+      agTimelinePoint = $('.js-timeline-card_point-box'),
+      agTimelineItem = $('.js-timeline_item'),
+      agOuterHeight = $(window).outerHeight(),
+      agHeight = $(window).height(),
+      f = -1,
+      agFlag = false;
+
+    function fnOnScroll() {
+      agPosY = $(window).scrollTop();
+
+      fnUpdateFrame();
+    }
+
+    function fnOnResize() {
+      agPosY = $(window).scrollTop();
+      agHeight = $(window).height();
+
+      fnUpdateFrame();
+    }
+
+    function fnUpdateWindow() {
+      agFlag = false;
+
+      agTimelineLine.css({
+        top: agTimelineItem.first().find(agTimelinePoint).offset().top - agTimelineItem.first().offset().top,
+        bottom: agTimeline.offset().top + agTimeline.outerHeight() - agTimelineItem.last().find(agTimelinePoint).offset().top
+      });
+
+      f !== agPosY && (f = agPosY, agHeight, fnUpdateProgress());
+    }
+
+    function fnUpdateProgress() {
+      var agTop = agTimelineItem.last().find(agTimelinePoint).offset().top;
+
+      i = agTop + agPosY - $(window).scrollTop();
+      a = agTimelineLineProgress.offset().top + agPosY - $(window).scrollTop();
+      n = agPosY - a + agOuterHeight / 2;
+      i <= agPosY + agOuterHeight / 2 && (n = i - a);
+      agTimelineLineProgress.css({height: n + "px"});
+
+      agTimelineItem.each(function () {
+        var agTop = $(this).find(agTimelinePoint).offset().top;
+
+        (agTop + agPosY - $(window).scrollTop()) < agPosY + .5 * agOuterHeight ? $(this).addClass('js-ag-active') : $(this).removeClass('js-ag-active');
+      })
+    }
+
+    function fnUpdateFrame() {
+      agFlag || requestAnimationFrame(fnUpdateWindow);
+      agFlag = true;
+    }
+ 
+
+  });
+})(jQuery);
+
+</script>
+<!-- JavaScript -->
+<script src="vendor/js/bundle.min.js"></script>
+<!-- Plugin Js -->
+<script src="vendor/js/jquery.appear.js"></script>
+<script src="vendor/js/owl.carousel.min.js"></script>
+<script src="vendor/js/wow.min.js"></script>
+<script src="vendor/js/jquery.fancybox.min.js"></script>
+
+<!-- CUSTOM JS -->
+<script src="vendor/js/contact_us.js"></script>
+<script src="creative-designer/js/circle-progress.min.js"></script>
+<script src="creative-designer/js/script.js"></script>
+
+</body>
+</html>
